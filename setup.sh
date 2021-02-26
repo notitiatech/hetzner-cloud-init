@@ -74,3 +74,9 @@ swapon /swapfile
 cat <<EOF >> /etc/fstab
 /swapfile swap swap defaults 0 0
 EOF
+
+## SSH Keys
+cat <<EOF >> /root/.ssh/authorized_keys
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDmQA62u8sW/22SidvYWILnbf8z3u1cHQPzjyyVOU0KQnmGg/t+LiAQTpGN7SmyBBgvHbmPfoGBdTQPkP4qyY6+yvzhekrKVo+c/jxTwVRG4vm2yNFNvihSeVC9LLCSuQBGOyCSxOaK4L/v1SZ29YPwBFZNIqVGGmJX6QlTXx+YFrUyiS+lup73vAJQ5Y/8iEHdI0DHLPMyjsb7GMLWtX03Zo5gaz2bFfl5i7mgdaFGN6aaNjpDHq/oMaqvVxqCKOlblOYor7Sdse900ZT2kjWL8+loNU4eEuddwQ26fqGE6+JY9DZtbGNkqPm+GA+mLHSHmAZUg1f3sHpK2o1yugmcsSugFcObpbQ92nmu0sN64txic4xH0ukvPz4ursxzoEdZt9q2Wz2aZD/FoAhVgvq2zboBQAjRM/6vd39IyQJAnK5lgBwDq0TdtBHpRo4+CJyOA4NoqWn1qeOOU33KnjNqYi4u0nH52NCa/41diOD5EcSRXCdBCxJ8ETosn1L8EOU= root@hetzner01
+EOF
+
