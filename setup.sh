@@ -84,6 +84,8 @@ EOF
 
 ## DNS
 cat <<EOF >> /etc/hosts
+10.0.0.3 nt-mgmt1
+10.0.0.6 nt-mgmt2
 10.0.0.2 rancher.notitia-technologies.de
 EOF
 
